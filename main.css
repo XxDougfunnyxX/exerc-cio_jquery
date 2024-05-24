@@ -1,0 +1,37 @@
+* {
+margin: auto;
+padding: auto;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(183, 187, 186);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+}
+
+tbody {
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+tbody:active {
+    transition: none;
+    text-decoration: line-through ;
+}
+
+.tbody {
+    text-decoration: line-through;
+}
+
